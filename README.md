@@ -5,3 +5,6 @@
 
 ## [BookADay - 2020](https://github.com/John-LucaGIT/uni/tree/main/BookADay)
 - A Holiday booking website.
+
+## [Java Shrek Game - 2020](https://github.com/John-LucaGIT/uni/tree/main/Java)
+- A Java game where you defeat enemies, move through levels and play for high scores.
