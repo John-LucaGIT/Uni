@@ -2,9 +2,9 @@
         // Credentials
         $servername = 'localhost';
         $username = 'byteme';
-        $passworddb = 'J2OoPHaujGvLvUIGUfQjsmqYrEq3NzF';
+        $passworddb = '';
         $database = 'byteme';
-        // Connection 
+        // Connection
         $conn = new mysqli($servername,$username,$passworddb,$database);
         // Check connection
         if ($conn->connect_error){
