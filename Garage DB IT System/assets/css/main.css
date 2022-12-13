@@ -1,0 +1,744 @@
+/* Font */
+
+
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic+Coding&display=swap');
+html,body,p,h1,h2,h3,h4,h5,h6{
+  font-family: 'Nanum Gothic Coding', monospace !important;
+}
+
+/* ETC */
+.bold{
+  font-weight: bold;
+}
+
+.text-align-left{
+  text-align: left;
+}
+
+.required{
+  color: red;
+}
+
+.block{
+  display: block;
+}
+
+.no-redirect{
+  pointer-events: none;
+  cursor: default;
+}
+
+div.btm.pageTitle{
+  margin-top: 2rem;
+  margin-left: 2rem;
+}
+
+/* Mobile Device Support */
+
+@media (max-width: 768px){
+  .btm.black-link.pageTitle{
+    margin-left: 0;
+    text-align: center;
+  }
+}
+
+.center{
+  text-align: center;
+}
+
+.btmcenter{
+  margin: 0 auto; 
+  float: none; 
+  margin-bottom: 10px; 
+}
+
+.hiddenfields{
+  display: none;
+}
+
+.btmTitle{
+  font-style: italic;
+  margin-left: 1rem;
+  display: inline-block;
+}
+
+input{
+  text-align: center;
+}
+
+.btm.backButton{
+  display: inline-block;
+}
+
+/* Links */
+
+.black-link a:link, .black-link a:visited{
+    color: black;
+    text-decoration: none;
+}
+
+/* Homepage */
+
+.btm .homepage{
+  text-align: center;
+  padding-bottom: 30rem;
+}
+
+/* Login / Register */
+
+.lformcard,.btmregcard{
+  padding-bottom: 4rem;
+}
+
+.btmlogin{
+  margin-top: 6rem;
+}
+
+body {
+  display: inline-block;
+  align-items: center;
+  padding-top: 40px;
+  background-color: #f5f5f5;
+}
+
+.form-signin {
+  width: 100%;
+  max-width: 330px;
+  padding: 15px;
+  margin: auto;
+}
+
+.form-signin .checkbox {
+  font-weight: 400;
+}
+
+.form-signin .form-floating:focus-within {
+  z-index: 2;
+}
+
+.form-signin input[type="email"] {
+  margin-bottom: -1px;
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 0;
+}
+
+.form-signin input[type="password"] {
+  margin-bottom: 10px;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+}
+
+.btmlreg{
+  max-width: 40rem;
+}
+
+#addfields{
+  display: none;
+}
+
+
+/* Footer */
+
+footer .card{
+  background-color: #091015;
+  text-align: center;
+  color: white;
+  flex-direction: column;
+  display: inline-flex;
+  padding-top: 2rem;
+}
+
+footer li.card-text {
+  list-style-position: inside;
+  list-style-type: none;
+  display: inline-block;
+  margin-left: 0.5rem;
+  margin-right: 0.5rem;
+}
+
+footer ol{
+  padding: 0;
+  text-align: center;
+}
+
+footer .socialicons{
+  font-size: 1.5rem;
+}
+
+/* Scrollbar */
+
+
+/* Works on Firefox */
+* {
+    scrollbar-width: thin;
+    scrollbar-color: #5a00d0 #27282c;
+  }
+  
+  /* Works on Chrome, Edge, and Safari */
+  *::-webkit-scrollbar {
+    width: 12px;
+  }
+  
+  *::-webkit-scrollbar-track {
+    background: #27282c;
+  }
+  
+  *::-webkit-scrollbar-thumb {
+    background-color: 121544;
+    border-radius: 20px;
+    border: 3px solid #27282c;
+  }
+  
+/* Administration */
+
+/* Admin Control Board */
+
+.welcomTitle{
+  padding-top: 2rem;
+  padding-bottom: 3rem;
+}
+
+.controlboard.container{
+  padding-bottom: 5rem;
+  padding-top: 2rem;
+}
+
+section.adminControlBoardSection .row{
+  margin-bottom: 2rem;
+}
+
+section.adminControlBoardSection .col{
+  margin-bottom: 1rem;
+}
+
+section.adminControlBoardSection .row
+  /* unvisited link */
+  a:link {
+    color: black;
+}
+
+section.adminControlBoardSection .row
+  /* visited link */
+  a:visited {
+    color: #5804ba;
+}
+
+section.adminControlBoardSection .row
+/* selected link */
+a:active {
+  color: #5804ba;
+}
+
+/* Users Table */
+
+.btm.admin.userlist.btmcenter{
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  width: 70% !important;
+}
+
+.btmtable{
+  margin-left: auto;
+  margin-right: auto;
+  display: table;
+}
+
+.userlist .table td,.userlist .table th{
+  white-space: nowrap;
+  width: 1%;
+}
+
+/* Mobile Device Support  */
+
+@media (max-width: 768px) {
+  .btm.admin.userlist.btmcenter{
+    width: 100% !important;
+  }
+}
+
+section.userSection .userlist .userinfo .card.center,
+section.userSection .userlist .userinfo .card.left,
+section.userSection .userlist .userinfo .card.right{
+  min-height: 12rem;
+  line-height: 1.2rem;
+}
+
+section.userSection div.card.userinfo.bg-light div.bottom{
+  margin-bottom: 1rem;
+  margin-top: 1rem;
+  text-align: center;
+}
+
+section.userSection .userinfo{
+  margin-bottom: 2rem;
+}
+
+section.userSection .userinfo .user-cards{
+  margin-top: 1rem;
+  margin-left: 0.5rem;
+  margin-right: 0.5rem;
+  margin-bottom: 0.5rem;
+}
+
+section.userSection .addVehicle{
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+section.userSection .addVehicle .vehs{
+  width: 70%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+section.userSection .vehicleInput{
+  margin-left: 1rem;
+  margin-right: 1rem;
+  margin-top: 1rem;
+}
+
+section.userSection .vehiclesUserTable.table-responsive{
+  width: fit-content;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+section.userSection .form-control{
+  margin-bottom: 0.2rem;
+}
+
+#userListCustomerID{ 
+  float: right;
+}
+
+/* Job List */
+
+@media (max-width: 990px){  
+  section.jobsSeciton table.table.joblist.table-hover.table-responsive{
+    float: none;
+    display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+.joblist{
+  width: fit-content;
+  padding-bottom: 0.2rem;
+  padding-top: 0.2rem;
+  margin-bottom: 4.5rem;
+  text-align: center;
+  display: block;
+  margin-right: 1rem;
+  float: left;
+  margin-left: 5.5rem;
+  margin-top: 1rem;
+}
+
+.btm.jobsTitle{
+  margin-left: 2rem;
+}
+
+.btm.jobsCard{
+  width: fit-content;
+  display: inline-block;
+  vertical-align: top;
+  margin-bottom: 4rem;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 1.2rem;
+}
+
+section.jobsSeciton{
+  text-align: center;
+  margin-bottom: 1rem;
+  padding-bottom: 20rem;
+  margin-bottom: 5rem;
+}
+
+.btm.jobsCard .card-header{
+  text-align: left;
+}
+
+.jobCardLeft,.jobCardRight{
+  display: inline-block;
+  margin-left: 1rem;
+}
+
+.jobCardRight{
+  vertical-align: top;
+  margin-bottom: 1rem;
+  margin-right: 3rem;
+}
+
+p.card-jobtext{
+  margin-bottom: 0.1rem;
+  text-align: left;
+}
+
+.dowReq,.dowCo{
+  border: 2px solid black;
+}
+
+.card-dow{
+  text-align: left;
+}
+
+.jobbuttons{
+  text-align: center;
+  width: max-content;
+  margin-bottom: 1rem;
+  margin-top: 1rem;
+}
+
+.jobCardRight .btn{
+  display: inline-block;
+}
+
+.jobCompleteCheckBox{
+  text-align: left;
+  display: block;
+}
+
+.jobPartsTable{
+  display: table;
+}
+
+#assignmechanicID {
+  display: unset;
+  width: unset;
+	height: calc(1.82rem + 2px);
+  padding: unset;
+  font-size: unset;
+  line-height: unset;
+	border: 1px solid #ced4da;
+}
+
+section.jobsSeciton div.col-md-auto.jobCardLeft,div.col-md-auto.jobCardRight{
+  width: unset;
+}
+
+#jobtabledescription{
+  margin-left: 3.5rem;
+  font-weight: bold;
+}
+
+/* Bookings */
+
+.bookingsSection{
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.bookingsSection .bookingsList{
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  width: 70% !important;
+  margin-bottom: 2rem;
+}
+
+.card.booking{
+  width: 70%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+
+.card.booking .bookingInputs{
+  margin-bottom: 0.3rem;
+}
+
+.jobNumber{
+  float: right;
+}
+
+.bookingsSection label{
+  margin-bottom: 0;
+}
+
+.bookingsSection .bg-light.jobsCard.hiddenfields{
+  display: none;
+}
+
+.bookingsSection .btm.jobsCard{
+  display: block;
+  margin-top: 2rem;
+}
+
+.addjobbtn{
+  margin-left: 0.5rem;
+}
+
+/* Jobs Page */
+
+#jobID{ 
+  float: right;
+}
+
+
+section.jobsSeciton table.table.joblist.table-hover.table-responsive tbody tr th button,section.jobsSeciton table.table.joblist.table-hover.table-responsive tbody tr th input[type="submit"]{
+	background: none;
+	color: inherit;
+	border: none;
+	padding: 0;
+	font: inherit;
+	cursor: pointer;
+	outline: inherit;
+}
+
+section.jobsSeciton .dowReq, section.jobsSeciton .dowCo{
+  max-width: 40rem;
+}
+
+.jobbuttons form{
+  width: fit-content;
+	display: inline-block;
+}
+
+
+/* Database Section */
+
+section.db.section h3.db.title{
+  margin-top: 5rem;
+  margin-bottom: 4rem;
+}
+
+.btm.admin.db.card {
+	margin-bottom: 15rem;
+	background-color: #f5f5f5;
+	/* width: auto;
+	margin-left: 15rem;
+	margin-right: 15rem; */
+  border: none;
+}
+
+section.db.section div.btm.admin.db.card form{
+  margin-top: 2rem;
+}
+
+section.db.section div.btm.admin.db.card form label{
+  display: block;
+}
+
+section.db.section div.btm.admin.db.card form .row{
+  margin-left: 0;
+  margin-right: 0;
+}
+
+section.db.section div.btm.admin.db.card form div.row.justify-content-center div.card.col-3{
+  margin-left: 1rem;
+  margin-right: 1rem;
+}
+section.db.section div.btm.admin.db.card div.col-3:nth-child(1){
+	padding-top: 2rem;
+}
+
+/* Nice File Interface */
+
+.NFI-wrapper {
+  color: white;
+}
+.NFI-button {
+  border-width: 0.2rem ;
+  background-color: #17a2b8;
+  border-color: #17a2b8;
+  display: inline-block;
+	font-weight: 400;
+	text-align: center;
+	white-space: nowrap;
+	vertical-align: middle;
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+	border: 1px solid transparent;
+	padding: .375rem .75rem;
+	font-size: 1rem;
+	line-height: 1.5;
+	border-radius: .25rem;
+	transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+.NFI-filename::before{
+  content: '\A';
+  white-space: pre;
+}
+.NFI-filename {
+  height: 2.3rem;
+  border-width: 0.2rem ;
+	border-radius: .25rem;
+  width: max-content;
+  border-color: transparent;
+}
+
+/* Stock Report */
+
+.stockreport.search{
+  margin-left: 1rem;
+}
+
+.stockreport.search label{
+  display: block;
+  margin-bottom: 0.2rem;
+  margin-top: 0.5rem;
+}
+
+.stockreport table{
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  width: 70% !important;
+  margin-bottom: 2rem;
+}
+
+.card.stockreport {
+	margin-left: 1rem;
+	margin-right: 1rem;
+	margin-top: 2rem;
+}
+
+/* Buy Parts */
+
+.btm.partsCard.card {
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+	width: 70%;
+  margin-bottom: 1rem;
+}
+
+.btm.partsCard label{
+  display: block;
+  margin-bottom: 0.2rem;
+  margin-top: 0.5rem;
+}
+
+.btm.partsCard form{
+  text-align: center;
+}
+
+.btm.partsCard .form-row.idhelp#idhelp,.btm.partsCard .form-row.parts.quant{
+  display: inline-flex;
+}
+
+#idhelp{
+  display: block;
+}
+
+.btm.partsCard form div.form-group.col-md-auto{
+  margin-bottom: 0;
+}
+
+.btm.partsCard form .btn{
+  margin-top: 2rem;
+}
+
+section.btmcenter.btmtable.partsTable table.table.table-hover.table-responsive{
+  display: table;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 0;
+  line-height: 0.2rem;
+}
+
+.btmtable.partsTable.hiddenfields{
+	display: none;
+}
+
+.btm.buyparts.bottom small {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: fit-content;
+	margin-top: 0.5rem;
+}
+
+.btm.buyparts.bottom{
+  margin-bottom: 2rem;
+}
+/* .container.mt-5.stockreport.table{
+  
+} */
+
+/* Invoice */
+
+#invoicebody{
+  width: 100%;
+}
+
+div#invoiceCards.card.invoiceCards.bg-light div.invoice-card div.card-subtitle h3{
+  margin-top: 2rem;
+}
+div#invoiceCards.card.invoiceCards.bg-light div.invoice-card{
+  margin-right: 5rem;
+  margin-left: 5rem;
+}
+
+div#invoiceCards.card.invoiceCards.bg-light div.invoice-card div.card-body{
+  padding: 0;
+}
+
+div.invoice-card div.row div.col-md-6 div.invoice-seller-address{
+  float: right;
+  line-height: 1rem;
+}
+
+div.invoice-card div.row div.col-md-6 div.invoice-customer-address{
+  line-height: 1rem;
+}
+
+div#invoiceCards.card.invoiceCards.bg-light{
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+.invoice-no-center{
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#customer-invoice-number{
+  font-weight: bold;
+  font-size: 1.2rem;
+}
+
+
+.invoice-customer-vehicle{
+  line-height: 1.1rem;
+  margin-top: 2rem;
+}
+
+.invoice-customer-dow{
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+
+.invoice-labour-hours{
+  line-height: 1rem;
+}
+
+div#invoiceCards.card.invoiceCards.bg-light div.invoice-card div.row.justify-content-center div.col-md-auto{
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 2rem;
+}
+
+.invoice-thankyou{
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+}
+
+.invoice.bottom.buttons{
+  margin-bottom: 3rem;
+}
+
+/* Invoice Card Payment */
+
+div#cardPayment.btm.invoice.card{
+  width: 70%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
