@@ -2,7 +2,7 @@
 
 ## [Garage DB IT System GARITS - 2022 Feb](https://github.com/John-LucaGIT/uni/tree/main/Garage%20DB%20IT%20System)
 
-Checkout the functionality using these credentials:
+Checkout the functionality using these credentials (must view raw):
 <!--
 franchisee@byteme.com
 franchisee
