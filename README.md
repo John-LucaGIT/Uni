@@ -1,6 +1,13 @@
 # University Projects
 
 ## [Garage DB IT System GARITS - 2022 Feb](https://github.com/John-LucaGIT/uni/tree/main/Garage%20DB%20IT%20System)
+
+Checkout the functionality using these credentials:
+<!--
+franchisee@byteme.com
+franchisee
+-->
+
 - A [database IT system](http://byteme.jkutschera.com/) for inventory and management of auto repair shops.
 
 ## [BookADay - 2020](https://github.com/John-LucaGIT/uni/tree/main/BookADay)
